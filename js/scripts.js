@@ -22,7 +22,7 @@ $(document).ready(function() {
                 output.push();
             }
             if (numbers[i] === 1) {
-                output.push("Oh Snap! Bummer! You Lose! Next Player")
+                output.push("Oh Snap! You Lose! Next Player")
             } else if (numbers[i] > 1) {
                 var add = (total += numbers[i]);
                 output.push("Great Job!Your New Score is"+" "+add);

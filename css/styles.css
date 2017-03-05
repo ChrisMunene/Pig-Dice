@@ -1,7 +1,20 @@
 body{
   margin: 5px;
   padding: 5px;
+  background-image: url("../images/background.jpg");
+}
+header{
+  text-align: center;
+  color: white;
+  font-family: 'Monoton', cursive;
 }
 .form-control{
   width: 50px;
+}
+.col-md-3{
+  padding-top: 100px;
+  font-family: 'Sansita',sans-serif;
+}
+h2{
+  font-family: 'Sansita',sans-serif;
 }

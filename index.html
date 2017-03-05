@@ -7,32 +7,31 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/butns.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Averia+Serif+Libre|Diplomata+SC|Monoton|Voces|Lusitana|Old+Standard+TT" rel="stylesheet">
     <title>Dice</title>
 </head>
+
 <body>
-  <div class="container">
-    <div class="row">
-      <form id="f1">
-            number on top-face=      <input type="text" id="field1" name="field1" class="form-control"/></br>
-            <button id="roll" type="submit"  value="roll" onclick="myFunction();">Roll</button>
-            <input type="button" value="Next Player" onClick="window.location.reload()">
-        </form>
-        <ul id="showResults">
-
-        </ul>
-    </div>
-</div>
+  <header>
+    <h1>HOT-DICE</h1>
+  </header>
     <div class="container">
-      <div class="row">
+        <div class="row">
+            <div class="col-md-3 col-md-push-5">
+                <form id="f1">
+                  <h2>Top Face</h2>  <input type="text" id="field1" name="field1" class="form-control" /></br>
+                    <button id="roll" type="submit" value="roll" onclick="myFunction();" class="button small fill-red transition-white">Roll</button>
+                    <input type="button" value="Next Player" onClick="window.location.reload()" class="button small fill-red transition-white">
+                </form>
+                <ul id="showResults">
 
-      </div>
-
+                </ul>
+            </div>
+        </div>
     </div>
-
 </body>
-
 </html>
