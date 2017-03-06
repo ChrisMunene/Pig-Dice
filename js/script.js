@@ -9,7 +9,7 @@ var Pig = {
     if (roll === 1) {
       this.currentScore = 0;
       this.switchActivePlayer();
-      
+
     }
     else {
       this.currentScore += roll;
@@ -93,12 +93,12 @@ $(document).ready(function(){
 
   var checkWin = function(){
     if(game.player1 >= 100){
-      alert("WE GOT A WINNER!! PLAYER 1 WINS!!");
+      alert("PLAYER 1 WINS!!");
       game = Object.create(Pig);
       player1wins+=1;
       $("#player1wins").text(player1wins);
     } else if (game.player2 >= 100){
-      alert("WE GOT A WINNER!! PLAYER 2 WINS");
+      alert("PLAYER 2 WINS");
       game = Object.create(Pig);
       player2wins+=1;
       $("#player2wins").text(player2wins);
