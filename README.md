@@ -13,7 +13,7 @@ The first player to score 100 or more points wins.
 
 For example, the first player, Chris, begins a turn with a roll of 5. Chris could hold and score 5 points, but chooses to roll again. 
 Chris rolls a 2, and could hold with a turn total of 7 points, but chooses to roll again. 
-Chris rolls a 1, and must end her turn without scoring. 
+Chris rolls a 1, and must end his turn without scoring. 
 The next player, Bob, rolls the sequence 4-5-3-5-5, after which he chooses to hold, and adds his turn total of 22 points to his score.
 
 Only numbers can be entered.
